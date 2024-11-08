@@ -2,11 +2,10 @@ import java.util.Scanner;
 public class Fibo {
     public static void main(String args[]){
         System.out.println("Enter number of terms in fibonacci series:");
-        Scanner n= new Scanner(System.in);
-        int count=n.nextInt();
+        
 
         System.out.println("Fibonacci series:");
-        for (int i=0;i<count;i++){
+        for (int i=0;i<9;i++){
             System.out.print(fibonacci(i)+" ");
         }
 
