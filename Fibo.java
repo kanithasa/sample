@@ -10,7 +10,7 @@ public class Fibo {
         }
 
         
-        n.close();
+        
     }
 
     public static int fibonacci(int i){
