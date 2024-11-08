@@ -6,7 +6,7 @@ public class Fibo {
         int count=n.nextInt();
         
         System.out.println("Fibonacci series:");
-        for (int i=0;i<n;i++){
+        for (int i=0;i<count;i++){
             System.out.print(fibonacci(i)+" ");
         }
 
