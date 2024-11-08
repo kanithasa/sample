@@ -12,7 +12,7 @@ public class Fibo {
             System.out.print(fibonacci(i)+" ");
         }
 
-        n.close();
+        
         
     }
 
